@@ -16,7 +16,7 @@
     "rxjs": "^6.5.5",
     "typesafe-actions": "^5.1.0"
   },
-  "description": "React boilerplate with Redux-observable",
+  "description": "Kotlin-react boilerplate with Redux-observable",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -91,7 +91,7 @@
   "name": "bp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/smodean/awesome-boilerplates"
+    "url": "https://github.com/smodean/kotlin-react-csr-boilerplate"
   },
   "scripts": {
     "build": "rimraf build && cross-env NODE_ENV=production webpack --config configs/webpack.config.ts",
