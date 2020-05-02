@@ -74,7 +74,7 @@ export default function getWebpackPlugins(env: Env): WebpackPlugin[] {
     new KotlinWebpackPlugin({
       librariesAutoLookup: true,
       moduleName: KOTLIN_APP_NAME,
-      optimize: env.IS_PRODUCTION,
+      optimize: false,
       output: paths.kotlinOutputPath,
       packagesContents: [
         require(paths.appPackageJson),
