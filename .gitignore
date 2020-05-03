@@ -13,7 +13,10 @@ HELP.md
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/workspace.xmlidea
+.idea
+!.idea/libraries
+!.idea/runConfigurations
+!.idea/modules.xml
 *.iws
 *.iml
 !kotlin-react-csr-boilerplate.iml

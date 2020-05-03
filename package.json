@@ -94,7 +94,7 @@
     "url": "https://github.com/smodean/kotlin-react-csr-boilerplate"
   },
   "scripts": {
-    "build": "rimraf build && cross-env NODE_ENV=production webpack --config configs/webpack.config.ts",
+    "build": "rimraf build && rimraf node_modules/.cache/kotlin-webpack && rimraf node_modules/.cache/terser-webpack-plugin && cross-env NODE_ENV=production webpack --config configs/webpack.config.ts",
     "docker:build": "docker build -t app .",
     "docker:run:dev": "docker run -p 8081:3001 app",
     "eslint": "eslint --ext .jsx,.js,.ts,.tsx src/",
